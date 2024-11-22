@@ -1,4 +1,4 @@
-import { Direction } from "src/enums/Direction";
+import { Direction } from "../../enums/Direction";
 import { Cell } from "../Cell";
 import { Vector2 } from "memview";
 

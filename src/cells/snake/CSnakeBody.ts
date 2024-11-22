@@ -1,4 +1,4 @@
-import { Direction } from "src/enums/Direction";
+import { Direction } from "../../enums/Direction";
 import { CSnake } from "./CSnake";
 
 export class CSnakeBody extends CSnake {

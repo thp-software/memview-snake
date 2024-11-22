@@ -3,7 +3,7 @@ import { Cell } from "./Cell";
 import { CTree } from "./CTree";
 import { eventBus } from "../utils/EventBus";
 import { Time } from "../utils/Time";
-import { TreeState } from "src/enums/TreeState";
+import { TreeState } from "../enums/TreeState";
 
 export class CApple extends Cell {
   private _createdAt: number;

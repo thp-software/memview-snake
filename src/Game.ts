@@ -144,7 +144,7 @@ export class Game {
           cellBackgroundColor: (el) => {
             return el._backgroundColor;
           },
-          cellText: (el) => {
+          cellText: (_) => {
             return [];
           },
           cellAtlasIndex: (el) => {

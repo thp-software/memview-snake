@@ -1,6 +1,6 @@
-import { Time } from "src/utils/Time";
+import { Time } from "../utils/Time";
 import { Cell } from "./Cell";
-import { TreeState } from "src/enums/TreeState";
+import { TreeState } from "../enums/TreeState";
 
 export class CTree extends Cell {
   private _lastStateUpdate: number;
